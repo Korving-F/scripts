@@ -22,3 +22,17 @@ Meh script to convert GPG keys produced by QtPass to CSV file for import into 3r
 ``` bash
 $ python converter.py --help
 ```
+
+### ESP32 / DHT22 Humidity/Temperature Sensor
+Quickly playing with ESP32 for the first time in a while using DHT22 sensor.
+
+Libraries:
+
+* [Adafruit DHT Humidity & Temperature Sensor Library ](https://github.com/adafruit/DHT-sensor-library)
+* [Adafruit Unified Sensor Driver](https://github.com/adafruit/Adafruit_Sensor)
+* [ESPAsyncWebServer](https://github.com/me-no-dev/ESPAsyncWebServer)
+* [AsyncTCP](https://github.com/me-no-dev/AsyncTCP)
+
+See also [this](https://randomnerdtutorials.com/esp32-dht11-dht22-temperature-humidity-web-server-arduino-ide/) tutorial. 
+
+![](dht22-webserver/breadbord.jpg)
