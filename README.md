@@ -35,4 +35,4 @@ Libraries:
 
 See also [this](https://randomnerdtutorials.com/esp32-dht11-dht22-temperature-humidity-web-server-arduino-ide/) tutorial. 
 
-<img src="https://raw.githubusercontent.com/Korving-F/scripts-configs/master/dht22-webserver/breadbord.jpg" alt="ESP32" height="10%" width="10%">
+<img src="https://raw.githubusercontent.com/Korving-F/scripts-configs/master/dht22-webserver/breadbord.jpg" alt="ESP32" height="35%" width="35%">
