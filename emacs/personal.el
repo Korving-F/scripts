@@ -31,3 +31,19 @@
 
 ;;; Set Tab-Width
 (setq tab-width 4)
+
+;; Add melpa package archive
+(add-to-list 'package-archives
+             '("melpa" . "http://melpa.org/packages/"))
+
+;; Enable neotree (F8) after install
+(require 'neotree)
+(global-set-key [f8] 'neotree-toggle)
+
+;; Set neotree theme and remove fixed window size
+(setq neo-theme (if (display-graphic-p) 'icons 'arrow))
+(setq neo-window-fixed-size nil)
+(setq-default neo-show-hidden-files t)
+
+;; Enable all-the-icons
+(require 'all-the-icons)
